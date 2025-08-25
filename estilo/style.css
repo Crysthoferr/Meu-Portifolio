@@ -5,6 +5,29 @@
     font-family:'Times New Roman', Times, serif sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#botao-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #e1f154;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+#botao-topo:hover {
+  background-color: #c4d52f;
+  color: #fff;
+  text-decoration: none;
+}
+
 #bg-video {
   position: fixed;
   top: 0;
@@ -31,7 +54,9 @@ body{
 
 .btn.bg-custom:hover, 
 a.btn.bg-custom:hover {
-  color: #777 !important; /* Ou outra cor escura para contraste */
+    background-color: #c4d52f !important;
+  color: #fff !important; /* Ou outra cor escura para contraste */
+  
 }
 
 a:not(.btn) {
@@ -58,6 +83,7 @@ a:not(.btn):hover {
 
 .slide-in-left {
     animation: slide-in-left 1.5s ease;
+    margin-top: -15px;
 }
 
 @keyframes slide-in-right {
