@@ -9,8 +9,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  min-width: 100vw;
-  min-height: 100vh;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -75,6 +73,20 @@ a:not(.btn):hover {
 
 .slide-in-right {
     animation: slide-in-right 1.5s ease;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw; 
+    z-index: 1050;
+    padding: 4rem 1.5rem 1rem 1rem;
+    min-height: 100vh;
+    transition: all 0.3s;
+  }
 }
 
 @media (max-width: 768px) {
