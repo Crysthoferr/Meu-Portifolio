@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif sans-serif;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  background: #000; /* fallback */
+}
+
+
+body{
+    min-height: 100vh;
+}
+
+.text-outline-black {
+  -webkit-text-stroke: .3px #000;
+}
+
+.bg-custom {
+    background-color: #e1f154 !important; /* Para fundo personalizado */
+}
+
+.btn.bg-custom:hover, 
+a.btn.bg-custom:hover {
+  color: #777 !important; /* Ou outra cor escura para contraste */
+}
+
+a:not(.btn) {
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+a:not(.btn):hover {
+    color: #e1f154 !important;
+    transform: scale(1.2);
+}
+
+
+@keyframes slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-left {
+    animation: slide-in-left 1.5s ease;
+}
+
+@keyframes slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-right {
+    animation: slide-in-right 1.5s ease;
+}
+
+@media (max-width: 768px) {
+    header img{
+        height: 40px !important;
+        width: 40PX !important;
+    }
+
+    h1, .h1 {
+        font-size: 1.5rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .background-animada {
+        background-position: center top;
+    }
+
+    .col-md-5, .col-md-6 {
+        text-align: center !important;
+        margin-bottom: 1.5rem;
+    }
+
+    .col-md-6 img {
+    max-width: 200px !important;
+    max-height: 200px !important;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.5rem 0 !important;
+        text-align: center;
+    }
+}
