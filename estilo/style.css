@@ -6,6 +6,11 @@
     font-family:'Times New Roman', Times, serif sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -92,6 +97,14 @@ a:not(.btn):hover {
     transform: translateY(-10px);
 }
 
+.slide-in-left {
+    margin-top: -15px;
+    animation: slide-in-left 1.5s ease;
+}
+
+.slide-in-right {
+    animation: slide-in-right 1.5s ease;
+}
 
 @keyframes slide-in-left {
     from {
@@ -102,11 +115,6 @@ a:not(.btn):hover {
         opacity: 1;
         transform: translateX(0);
     }
-}
-
-.slide-in-left {
-    animation: slide-in-left 1.5s ease;
-    margin-top: -15px;
 }
 
 @keyframes slide-in-right {
@@ -120,12 +128,28 @@ a:not(.btn):hover {
     }
 }
 
-.slide-in-right {
-    animation: slide-in-right 1.5s ease;
-}
-
 .fs-xl {
   font-size: 3.5rem;
+}
+
+#sobre{
+    height: 85vh;
+    margin-top: -10%;
+}
+
+#sub-sobre{
+    margin-top: -5%;
+}
+
+#h2-sobre{
+    color: #e1f154;
+}
+
+ #profile2{
+    margin-top: -6%;
+    display: block;
+    max-width: 50vw;
+    border-top: 1 px solid white;
 }
 
 @media (max-width: 500px) {
@@ -210,6 +234,10 @@ a:not(.btn):hover {
         position: relative;
         z-index: 20;
     }
+    #botao-sobre{
+        font-size: 1.1rem !important;
+    }
+    
 }
 
 @media (max-width: 900px) {
@@ -232,6 +260,9 @@ a:not(.btn):hover {
     #inicio{
         min-width: 90vw !important;
         min-height: 90vh !important;
+    }
+    #botao-sobre{
+        font-size: 1.1rem !important;
     }
 }
 @media (max-width: 1500px) {
@@ -256,5 +287,8 @@ a:not(.btn):hover {
     }
     #inicio{
         min-width: 90vw !important;
+    }
+    #botao-sobre{
+        font-size: 1.1rem !important;
     }
 }
