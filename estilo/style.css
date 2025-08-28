@@ -171,7 +171,7 @@ a:not(.btn):hover {
     }
     #nav-links .link-icon {
          display: inline-block;
-         font-size: 2.5rem !important;
+         font-size: 1.3rem !important;
     }
     .nav-link:hover {
         color: #e1f154 !important;
