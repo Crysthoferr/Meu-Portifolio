@@ -120,11 +120,11 @@ a:not(.btn):hover {
 
 @media (max-width: 500px) {
     #profile {
-        height: 20%;
+        height: 3%;
         position: relative;
         transform: none;
-        margin: 0 auto;
-        display: block;
+        margin-bottom: 10%;
+        display: flex;
     }
     h1, .h1 {
         font-size: 1rem !important;
@@ -140,6 +140,7 @@ a:not(.btn):hover {
         display: flex;
         text-align: center;
         font-size: .5rem !important;
+        padding: 0.1rem  !important;
     }
     #icone-home{
         height: 30px !important;
@@ -151,6 +152,9 @@ a:not(.btn):hover {
     #inicio .btn{
         position: relative;
         z-index: 20;
+    }
+    #inicio{
+        margin-top: 15% !important;
     }
 }
 
