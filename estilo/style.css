@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 *{
     font-family:'Times New Roman', Times, serif sans-serif;
@@ -6,6 +8,14 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+#nav-links .link-text{
+    display: inline-block;
+}
+
+#nav-links .link-icon{
+    display: none;
 }
 
 #profile{
@@ -139,8 +149,6 @@ a:not(.btn):hover {
     #link-nav { 
         display: flex;
         text-align: center;
-        font-size: .5rem !important;
-        padding: 0.1rem  !important;
     }
     #icone-home{
         height: 30px !important;
@@ -156,6 +164,20 @@ a:not(.btn):hover {
     #inicio{
         margin-top: 15% !important;
     }
+    #nav-links .link-text {
+         display: none;
+         flex-wrap: wrap;
+         justify-content: space-around;
+    }
+    #nav-links .link-icon {
+         display: inline-block;
+         font-size: 1rem;
+    }
+    .nav-link:hover {
+        color: #e1f154 !important;
+        transform: translateY(-2px);
+        transition: all 0.2s ease;
+}
 }
 
 @media (max-width: 768px) {
@@ -190,7 +212,7 @@ a:not(.btn):hover {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
     h1, .h1{
         font-size: 1.8rem !important;
     }
