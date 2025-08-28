@@ -118,10 +118,10 @@ a:not(.btn):hover {
   font-size: 3.5rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #profile {
-        height: 30%;
-        position: static;
+        height: 20%;
+        position: relative;
         transform: none;
         margin: 0 auto;
         display: block;
