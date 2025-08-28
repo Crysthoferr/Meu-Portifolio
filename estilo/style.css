@@ -118,6 +118,42 @@ a:not(.btn):hover {
   font-size: 3.5rem;
 }
 
+@media (max-width: 480px) {
+    #profile {
+        height: 50%;
+        position: static;
+        transform: none;
+        margin: 0 auto;
+        display: block;
+    }
+    h1, .h1 {
+        font-size: 2rem !important;
+        margin-top: 1rem !important;
+    }
+    #p1{
+        font-size: .9rem !important;
+    }
+    #botao-sobre{
+        font-size: .9rem !important;
+    }
+    #link-nav { 
+        display: flex;
+        text-align: center;
+        font-size: .8rem !important;
+    }
+    #icone-home{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    #titulo-home{
+        display: none !important;
+    }
+    #inicio .btn{
+        position: relative;
+        z-index: 20;
+    }
+}
+
 @media (max-width: 768px) {
     #profile {
         height: 60%;
