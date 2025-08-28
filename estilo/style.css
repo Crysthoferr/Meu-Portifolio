@@ -118,28 +118,28 @@ a:not(.btn):hover {
   font-size: 3.5rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 200px) {
     #profile {
-        height: 50%;
+        height: 30%;
         position: static;
         transform: none;
         margin: 0 auto;
         display: block;
     }
     h1, .h1 {
-        font-size: 2rem !important;
+        font-size: 1rem !important;
         margin-top: 1rem !important;
     }
     #p1{
-        font-size: .9rem !important;
+        font-size: .7rem !important;
     }
     #botao-sobre{
-        font-size: .9rem !important;
+        font-size: .6rem !important;
     }
     #link-nav { 
         display: flex;
         text-align: center;
-        font-size: .8rem !important;
+        font-size: .5rem !important;
     }
     #icone-home{
         height: 30px !important;
