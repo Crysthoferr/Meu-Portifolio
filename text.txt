@@ -1,0 +1,111 @@
+resto do projeto 
+
+<section id="servicos">
+                    <h2 class="text-white">Serviços</h2>
+                    
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem enim praesentium sed placeat, alias, voluptatibus inventore, ullam illo ab ipsam. Corrupti delectus aut amet quis labore sed ad ratione.</p>
+                </section>
+
+                <section id="resumo">
+                    <h2 class="text-white">Resumo</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem enim praesentium sed placeat, alias, voluptatibus inventore, ullam illo ab ipsam. Corrupti delectus aut amet quis labore sed ad ratione.</p>
+                </section>
+
+                <section id="contato">
+                    <h2 class="text-white">Contato</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem enim praesentium sed placeat, alias, voluptatibus inventore, ullam illo ab ipsam. Corrupti delectus aut amet quis labore sed ad ratione.</p>
+                </section>
+
+            </div>
+        </main>
+        <footer class="bg-dark text-white text-center py-3">
+            <p class="mb-0">© 2025 Crysthofer Luis. Todos os direitos reservados.</p>
+        </footer>
+
+
+Boa 👌 aquele que eu mandei lá em cima já era um **mapa geral** (Navbar → Início → Sobre → Serviços → Resumo → Contato → Footer).
+Mas se você vai **refazer o projeto todo em mobile first**, o ideal é eu te montar um **checklist linear**, tipo um roteiro de maratona 🏃‍♂️, que você segue passo a passo e no final vai estar no mesmo ponto que estava, só que sem gambiarras.
+
+---
+
+# ✅ Checklist do seu Portfólio (Mobile First → depois expandir)
+
+### 🔹 Etapa 1 – Estrutura inicial
+
+* [ ] Cria pasta do projeto (`index.html`, `style.css`, pasta `images`, etc.).
+* [ ] Configura HTML base (Bootstrap + CSS seu).
+* [ ] Define variáveis de cor e fontes no `:root` do CSS.
+
+---
+
+### 🔹 Etapa 2 – Navbar
+
+* [ ] Criar navbar simples, **mobile first** → só ícones centralizados.
+* [ ] Testar no celular → ícones grandes, clicáveis, centralizados.
+* [ ] Adicionar `span` com texto dos links → esconder no mobile, mostrar em telas maiores com media query.
+
+---
+
+### 🔹 Etapa 3 – Seção Início
+
+* [ ] Criar um `<section id="inicio">`.
+* [ ] Colocar sua foto (`profile2.png`).
+* [ ] Um título (seu nome).
+* [ ] Um subtítulo (ex.: “Desenvolvedor Web”).
+* [ ] Botão de chamada (ex.: “Ver mais”).
+* [ ] **Mobile first:** tudo em coluna, centralizado.
+* [ ] Depois, em desktop, organizar em duas colunas (foto de um lado, texto do outro).
+
+---
+
+### 🔹 Etapa 4 – Seção Sobre
+
+* [ ] Criar `<section id="sobre">`.
+* [ ] Um texto curto apresentando você.
+* [ ] Mobile → texto ocupando largura total.
+* [ ] Desktop → limitar largura (máx. 800px) e centralizar.
+
+---
+
+### 🔹 Etapa 5 – Seção Serviços
+
+* [ ] Criar `<section id="servicos">`.
+* [ ] Colocar cards com ícones e título (ex.: “Front-End”, “Back-End”, “Design”).
+* [ ] Mobile → cards em coluna.
+* [ ] Tablet → 2 cards por linha.
+* [ ] Desktop → 3 cards por linha.
+
+---
+
+### 🔹 Etapa 6 – Seção Resumo (timeline / experiência)
+
+* [ ] Criar `<section id="resumo">`.
+* [ ] Adicionar lista de experiências (curso, estágio, projeto).
+* [ ] Mobile → tudo em lista vertical simples.
+* [ ] Desktop → pode usar um layout de duas colunas (experiência de um lado, educação do outro).
+
+---
+
+### 🔹 Etapa 7 – Seção Contato
+
+* [ ] Criar `<section id="contato">`.
+* [ ] Colocar formulário simples (nome, email, mensagem).
+* [ ] Mobile → inputs 100% largura.
+* [ ] Desktop → formulário centralizado, máx. 600px.
+
+---
+
+### 🔹 Etapa 8 – Footer
+
+* [ ] Criar `<footer>`.
+* [ ] Colocar copyright + links sociais.
+* [ ] Mobile → centralizado.
+* [ ] Desktop → pode alinhar em linha (texto à esquerda, redes à direita).
+
+---
+
+👉 Quando tudo isso estiver funcionando no **mobile first**, aí você só entra com **media queries para tablet e desktop** — que nada mais são que “melhorias visuais” em cima da base.
+
+---
+
+Quer que eu detalhe também **quais breakpoints exatos** você pode usar (tipo `576px`, `768px`, `992px`, etc.), ou prefere começar com só **um breakpoint (tablet) e outro (desktop)** pra não complicar?

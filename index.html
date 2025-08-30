@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="estilo/media_query.css">
   </head>
   <body>
         <header>
@@ -19,11 +19,11 @@
                     </div>
                     <div class="justify-content-end" id="mainNavbar">
                         <ul class="navbar-nav mb-md-0 text-end" id="nav-links">
-                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white" href="#inicio" ><span class="link-text">Início</span><i class="bi bi-house-door link-icon"></i></a></li>
-                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white" href="#sobre" ><span class="link-text">Sobre</span><i class="bi bi-person link-icon"></i></a></li>
-                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white" href="#servicos" ><span class="link-text">Serviços</span><i class="bi bi-bar-chart link-icon"></i></a></li>
-                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white" href="#resumo" ><span class="link-text">Resumo</span><i class="bi bi-terminal link-icon"></i></a></li>
-                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white" href="#contato" ><span class="link-text">Contato</span><i class="bi bi-mailbox link-icon"></i></a></li>
+                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white slide-in-right" href="#inicio" ><span class="link-text">Início</span><i class="bi bi-house-door link-icon"></i></a></li>
+                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white slide-in-right" href="#sobre" ><span class="link-text">Sobre</span><i class="bi bi-person link-icon"></i></a></li>
+                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white slide-in-right" href="#servicos" ><span class="link-text">Serviços</span><i class="bi bi-bar-chart link-icon"></i></a></li>
+                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white slide-in-right" href="#resumo" ><span class="link-text">Resumo</span><i class="bi bi-terminal link-icon"></i></a></li>
+                            <li class="nav-item ms-3 fs-5"><a id="link-nav" class="nav-link text-white slide-in-right" href="#contato" ><span class="link-text">Contato</span><i class="bi bi-mailbox link-icon"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -34,20 +34,20 @@
             Seu navegador não suporta vídeo em HTML5.
         </video>
         <main>
-            <div class="container mt-5">
+            <div class="container mt-3">
                 <a href="#" id="botao-topo">^</a>
 
                 <section id="inicio" class="d-flex align-items-end min-vh-100 justify-content-center">
                     <div class="row align-items-center" id="inicio" style="min-height:100vh; min-width: 64vw;">
                         <div class="col-md-3" >
-                            <h1 class="slide-in-left text-white mt-3 fs-xl"> Eu sou um Desenvolvedor <br> Web Full Stack</h1><br><br>
-                            <p id="p1" class="slide-in-left text-white fs-4">Bem-vindo ao meu portfólio pessoal!</p>
+                            <h1 class="slide-in-left text-white mt-3 fs-xl"> Eu sou um Desenvolvedor <br> Web</h1><br><br>
+                            <p id="p1" class="slide-in-left text-white fs-4 ">Bem-vindo ao meu portfólio pessoal!</p>
                             <a href="#sobre" id="botao-sobre" class="btn bg-custom mt-5 fs-4 slide-in-left">Saiba mais sobre mim</a>
                         </div>
-                        <div class="col-md-4" id="profile">
-                            <img src="images/profile.png" id="profile" alt="Minha imagem" class="img-fluid rounded-circle slide-in-right" style="max-height: 600px;">
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <img src="images/profile.png" id="profile" alt="Seu navegador não é compatível com esta imagem" class="img-fluid rounded-circle slide-in-right" style="max-height: 550px;">
                         </div>
-                        <div>
+                        <div id="links-inicio" class="border-bottom pb-3">
                             <a href="https://github.com/Crysthoferr" target="_blank"><img src="images/icon1.png" alt="Github" class="img-fluid slide-in-left" style="width: 45px; height: 45px;"></a>
                             <a href="https://www.linkedin.com/in/crysthofer-luis-gon%C3%A7alves-2835b3259/" target="_blank"><img src="images/icon2.png" alt="Linkedin" class="img-fluid slide-in-left" style="width: 45px; height: 40px;"p></a>
                             <a href="https://www.instagram.com/yoshi_.skt/" target="_blank"><img src="images/icon3.png" alt="Instagran" class="img-fluid slide-in-left" style="width: 47px; height: 40px;"p></a>
@@ -56,8 +56,8 @@
                 </section>
 
                 <section id="sobre">
-                    <div class="row container d-flex justify-content-center border-top ms-3">
-                        <img src="images/profile2.png" class="img-fluid" id="profile2" alt="Seu navegador não suporta este tipo de imagem">
+                    <div class="row container d-flex justify-content-center ms-3">
+                        <img src="images/profile2.png" id="profile2" alt="Seu navegador não suporta este tipo de imagem" style="height: 500px; width: 500px;">
                     </div>
                         <div id="sub-sobre">
                             <h3 class="text-center text-white fs-1">Crysthofer Luis</h3>
@@ -69,27 +69,7 @@
                         </div>
                 </section>
 
-                <section id="servicos">
-                    <h2 class="text-white">Serviços</h2>
-                    
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem enim praesentium sed placeat, alias, voluptatibus inventore, ullam illo ab ipsam. Corrupti delectus aut amet quis labore sed ad ratione.</p>
-                </section>
-
-                <section id="resumo">
-                    <h2 class="text-white">Resumo</h2>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem enim praesentium sed placeat, alias, voluptatibus inventore, ullam illo ab ipsam. Corrupti delectus aut amet quis labore sed ad ratione.</p>
-                </section>
-
-                <section id="contato">
-                    <h2 class="text-white">Contato</h2>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem enim praesentium sed placeat, alias, voluptatibus inventore, ullam illo ab ipsam. Corrupti delectus aut amet quis labore sed ad ratione.</p>
-                </section>
-
-            </div>
-        </main>
-        <footer class="bg-dark text-white text-center py-3">
-            <p class="mb-0">© 2025 Crysthofer Luis. Todos os direitos reservados.</p>
-        </footer>
+                
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
         <script src="javaScript/main.js"></script>
   </body>

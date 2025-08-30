@@ -1,0 +1,154 @@
+/* @charset "UTF-8";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@media (max-width: 500px) {
+    #profile {
+        width: 50vw;
+        position: relative;
+        transform: none;
+        margin-bottom: 10%;
+        display: flex;
+    }
+    #profile2{
+        margin-right: 13%;
+        max-width: 400px;
+        max-height: 250px;
+    }
+    h1, .h1 {
+        font-size: 1rem !important;
+        margin-top: 1rem !important;
+    }
+    #p1{
+        font-size: .7rem !important;
+    }
+    #botao-sobre{
+        font-size: .6rem !important;
+    }
+    #link-nav { 
+        display: flex;
+        text-align: center;
+    }
+    #icone-home{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    #titulo-home{
+        display: none !important;
+    }
+    #inicio .btn{
+        position: relative;
+        z-index: 20;
+    }
+    #inicio{
+        margin-top: 15% !important;
+        text-align: center !important;
+    }
+    #nav-links .link-text {
+         display: none;
+         flex-wrap: wrap;
+         justify-content: space-around;
+    }
+    #nav-links .link-icon {
+         display: inline-block;
+         font-size: 1.3rem !important;
+    }
+    .nav-link:hover {
+        color: #e1f154 !important;
+        transform: translateY(-2px);
+        transition: all 0.2s ease;
+    }
+    #links-inicio{
+        border-bottom: 1px solid white;
+        margin-bottom: 25%;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    #profile {
+        height: 60%;
+    }
+    h1, .h1 {
+        font-size: 2.5rem !important;
+        margin-top: 1rem !important;
+    }
+    #p1{
+        font-size: 1rem !important;
+    }
+    #botao-sobre{
+        font-size: 1rem !important;
+    }
+    #link-nav { 
+        display: flex;
+        text-align: center;
+        font-size: .9rem !important;
+    }
+    #icone-home{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    #titulo-home{
+        font-size: 1rem !important;
+    }
+    #inicio .btn{
+        position: relative;
+        z-index: 20;
+    }
+    #botao-sobre{
+        font-size: 1.1rem !important;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    h1, .h1{
+        font-size: 1.8rem !important;
+    }
+    #p1{
+        font-size: 1rem !important;
+    }
+    #botao-sobre{
+        font-size: 1rem !important;
+    }
+    .nav-link { 
+        display: block;
+        padding: 0.2rem 0 !important;
+        text-align: center;
+        font-size: 1rem !important;
+        margin-left: 20px;
+    }
+    #inicio{
+        min-width: 90vw !important;
+        min-height: 90vh !important;
+    }
+    #botao-sobre{
+        font-size: 1.1rem !important;
+    }
+}*/
+@media (max-width: 1500px) {
+    h1, .h1{
+        font-size: 2.3rem !important;
+    }
+    #p1{
+        font-size: 1.2rem !important;
+    }
+    #botao-sobre{
+        font-size: 1.2rem !important;
+    }
+    #profile {
+        max-height: 75vh !important;
+    }
+    .nav-link { 
+        display: block;
+        padding: 0.2rem 0 !important;
+        text-align: center;
+        font-size: 1rem !important;
+        margin-left: 15px;
+    }
+    #inicio{
+        min-width: 90vw !important;
+    }
+    #botao-sobre{
+        font-size: 1.1rem !important;
+    }
+} 
